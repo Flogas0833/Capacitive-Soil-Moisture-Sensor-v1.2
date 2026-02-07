@@ -4,7 +4,11 @@ dung của điện cực trong đất. Ưu điểm lớn nhất là không bị 
 các loại cảm biến điện trở thông thường.
 
 # Sơ đồ kết nối
-Chân cảm biến | Chân ESP32    | Chức năng
-VCC           | 3.3V          |Cấp nguồn
-GND           |GND            |Nối đất
-AOUT          |GPIO 34 (ADC1) |Tín hiệu tương tự
+┌───────────────┬───────────────┬────────────────────┐
+│Chân cảm biến  │ Chân ESP32    │ Chức năng          │
+├───────────────┼───────────────┼────────────────────┤
+│ VCC           │ 3.3V          │ Cấp nguồn          │
+│ GND           │ GND           │ Nối đất            │
+│ AOUT          │GPIO 34 (ADC1) │ Tín hiệu tương tự  │
+└───────────────┴───────────────┴────────────────────┘
+
